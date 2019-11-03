@@ -1,4 +1,4 @@
-import { ILogFormatter, ILogInformation } from "../../out";
+import { ILogFormatter, ILogInformation } from "../../src";
 
 export default class CustomFormatter implements ILogFormatter {
     
