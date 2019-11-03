@@ -1,0 +1,26 @@
+{
+  "name": "ts-logger",
+  "version": "0.0.1",
+  "description": "A nodejs logger written in typescript.",
+  "main": "./out/index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage --collectCoverageFrom=src/**/*.ts --collectCoverageFrom=!src/**/*.d.ts",
+    "start": "tsc && node .",
+    "build": "tsc"
+  },
+  "keywords": [
+    "ts",
+    "typescript",
+    "logger"
+  ],
+  "author": "Julian Zameit",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.21",
+    "@types/node": "^12.12.3",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4"
+  }
+}
